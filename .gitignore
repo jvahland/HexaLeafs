@@ -1,0 +1,23 @@
+# Taken from 
+# https://atlaswiki.lbl.gov/guides/kicad/git
+# Generic backup files
+*~
+\#*
+.\#*
+
+# KiCad backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+
+# KiCad generated files
+*.erc
+*.net
+*-cache.lib
+*-rescue.lib
+
+# Added from https://github.com/github/gitignore/pull/4176/files
+fp-info-cache
+HexaLeafs.kicad_prl
+*-backups/
+sym-lib-table
