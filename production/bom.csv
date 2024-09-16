@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+" WS2815_6,  WS2815_5,  WS2815_4,  WS2815_3,  WS2815_2,  WS2815",LED_RGB_5050-6,6,~,C4154879
+"100nF_6, 100nF_5, 100nF_4, 100nF_3, 100nF_2, 100nF",0603,6,100n,C14663
+J1,PinHeader_1x04_P2.54mm_Horizontal,1,Conn_01x04,C19190478
+"J2, J3, J4, J5, J6",PinSocket_1x04_P2.54mm_Horizontal,5,Conn_01x04,C2897386
+"Primary, Secondary",SW_DIP_SPSTx06_Slide_9.78x17.42mm_W7.62mm_P2.54mm,2,SW_DIP_x06,C5299507

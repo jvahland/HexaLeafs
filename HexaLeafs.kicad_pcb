@@ -131,7 +131,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "36d40439-bb55-4ac2-82a5-9293fb9ee718")
@@ -143,7 +143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "788f663d-d9e1-479d-a04e-1e088671edb3")
@@ -155,7 +155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "245fb8c9-f8d6-45fa-9485-7b05feb820c3")
@@ -166,8 +166,20 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ec376d3-9c93-4a84-a60c-79833f603452")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/098fcd8e-c952-47d4-95f5-a164623f7c8d")
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
@@ -373,6 +385,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C19190478"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00492e46-5cfd-4ebc-a20c-9fbfeabfbe60")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1194,6 +1219,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2897386"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7f93c9a-58bd-4769-a0e5-b1c6bbf2a1c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/229b6606-bbed-41a7-8b8c-6a9fa496fb3e")
 		(sheetname "Root")
@@ -1789,6 +1827,17 @@
 			(layer "F.Fab")
 			(uuid "fa71a563-93fb-4ddd-8c06-9584e3245e43")
 		)
+		(fp_rect
+			(start -8.8 -1.4)
+			(end 0.4 9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "User.2")
+			(uuid "27e389d7-d862-4853-bd59-aa871ffdd475")
+		)
 		(fp_text user "${REFERENCE}"
 			(at -5.775 3.81 0)
 			(layer "F.Fab")
@@ -2033,8 +2082,20 @@
 				)
 			)
 		)
+		(property "LCSC" "C5299507"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26d63b27-ffe2-4e4d-96cd-64aabf92e165")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SW?DIP?x6*")
-		(path "/2d4385ec-ab28-4a4e-a72f-faee286c7369")
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr through_hole)
@@ -4327,6 +4388,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2897386"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caf4820c-f622-4d0f-baaa-5bb6eea5f1e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/88b87c89-651d-4af3-956e-3a27fbbd645b")
 		(sheetname "Root")
@@ -4922,6 +4996,18 @@
 			(layer "F.Fab")
 			(uuid "336ca8be-d0fc-4c66-add0-934a83c6e658")
 		)
+		(fp_poly
+			(pts
+				(xy -8.800001 -1.4) (xy 0.4 -1.4) (xy 0.4 9) (xy -8.8 9.000001)
+			)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "User.2")
+			(uuid "33a574e3-f598-498d-a714-43661fc27c15")
+		)
 		(fp_text user "${REFERENCE}"
 			(at -5.775 3.81 60)
 			(layer "F.Fab")
@@ -5053,7 +5139,19 @@
 				)
 			)
 		)
-		(path "/8bc3929d-6047-4401-a21b-cc3325192852")
+		(property "LCSC" "C4154879"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13bfecff-836f-4ed6-a8a7-bd13cf9668fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
@@ -5428,7 +5526,19 @@
 				)
 			)
 		)
-		(path "/788b3ac1-50cb-4156-818f-d3ae8859ee0e")
+		(property "LCSC" "C4154879"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cd8265d-307b-45a7-920d-4eea4c45f9d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
@@ -5707,8 +5817,20 @@
 				)
 			)
 		)
+		(property "LCSC" "C5299507"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fe65879-3e56-4204-b575-63159e0e7dbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SW?DIP?x6*")
-		(path "/12d26d86-9137-4545-900b-20dc345880d3")
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr through_hole)
@@ -8075,7 +8197,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6861c9d-c0db-4599-9f9e-c1ad5ae61783")
@@ -8087,7 +8209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "863b1bc8-3fc1-4848-8991-88a1d5a505e7")
@@ -8099,7 +8221,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "588c381b-06e4-44cc-843d-2e339f400b75")
@@ -8110,7 +8232,19 @@
 				)
 			)
 		)
-		(path "/0e6274eb-5123-41dc-b04f-9f5c7c7805fd")
+		(property "LCSC" "C4154879"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2bf35ff-2080-4bf2-ac6d-249c857d43af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
@@ -8386,8 +8520,20 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "014154a0-d765-4433-b182-281265860413")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/2b2effbe-c02c-4d83-9444-8c08fb8c33dc")
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
@@ -8593,6 +8739,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2897386"
+			(at 0 0 -150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13ed818f-7418-452f-a81b-cef1f57b7634")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9323,8 +9482,20 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afb8cd43-2009-4c1d-837a-50a7c81c13d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/f8b161b8-1584-44dd-ba0d-0f171f343b23")
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
@@ -9533,8 +9704,20 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d8435c9-9f4e-4edb-a0ee-42c99dda1a97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/898e374c-c2a7-40b1-ae0c-8cf1b8c5ff1f")
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
@@ -9743,8 +9926,20 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10b1eeb3-d49c-4a68-81fb-fbd5d75739c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/49cd824e-f7cc-499a-a371-b5071a5c2895")
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
@@ -10063,7 +10258,19 @@
 				)
 			)
 		)
-		(path "/4b09d690-9247-47d8-a3d3-9957bfe7f665")
+		(property "LCSC" "C4154879"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db61ad5a-f8a9-4c87-9ea3-771909fb676b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
@@ -10339,7 +10546,19 @@
 				)
 			)
 		)
-		(path "/f71e03f5-1f17-435a-8fa6-abfac17b49b0")
+		(property "LCSC" "C4154879"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d08abc85-0f64-4a8f-b1d5-2f07d6525e09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
@@ -10722,6 +10941,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2897386"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49bacb4b-2d41-42dc-b986-2ce20e329403")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11452,8 +11684,20 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bd80be1-66d0-47f2-82b2-a599cd0593e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/02a04155-6f94-44ac-96bb-12e092d1688d")
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
@@ -11659,6 +11903,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2897386"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63c5f07e-e8ca-4ab5-a8a4-ebb1a6e156a4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12258,6 +12515,18 @@
 			(layer "F.Fab")
 			(uuid "1270e1e7-f484-47fd-b802-f5a742ce6cf4")
 		)
+		(fp_poly
+			(pts
+				(xy -8.8 -1.400001) (xy 0.4 -1.4) (xy 0.4 9) (xy -8.800001 9)
+			)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "User.2")
+			(uuid "6a1f7fce-1f0a-4a51-bb5d-2a6862e8a9c3")
+		)
 		(fp_text user "${REFERENCE}"
 			(at -5.775 3.81 120)
 			(layer "F.Fab")
@@ -12389,7 +12658,19 @@
 				)
 			)
 		)
-		(path "/07273798-a988-42cd-91c1-06071f794581")
+		(property "LCSC" "C4154879"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21b94a8a-a402-450f-b439-e471cf64d595")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(sheetname "Root")
 		(sheetfile "HexaLeafs.kicad_sch")
 		(attr smd)
