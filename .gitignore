@@ -21,3 +21,5 @@ fp-info-cache
 HexaLeafs.kicad_prl
 *-backups/
 sym-lib-table
+
+*.lck
