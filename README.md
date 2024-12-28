@@ -1,5 +1,7 @@
 # HexaLeafs
 
+![hexaleaf prototype](media/2024-12-28_hexaleaf-prototype.png)
+
 ## Description
 
 We like hexagons and blinky lights.
@@ -31,4 +33,3 @@ The connection should be easy to use and easy to connect and disconnect.
 
 We also wanted to keep the cost low.
 So we decided to use a simple 4-pin connector with a pitch of 2.54mm which are SMD soldered to the PCB.
-
