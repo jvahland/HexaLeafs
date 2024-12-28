@@ -1,6 +1,6 @@
 # HexaLeafs
 
-![hexaleaf prototype](media/2024-12-28_hexaleaf-prototype.png)
+![hexaleaf prototype](media/2024-12-28_hexaleaf-prototype.jpg)
 
 ## Description
 
